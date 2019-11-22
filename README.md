@@ -1,24 +1,16 @@
-# testemagal
+# ER Películas
 
-## Project setup
+## Instalando o projeto
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### Executando modo de desenvolvimento
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
+### Prepara o projeto pra ser hospedado
 ```
 yarn build
 ```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
