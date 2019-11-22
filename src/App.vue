@@ -39,13 +39,14 @@
     <div class="bg-dark">
       <div class="container">
           <div class="row">
-            <div class="col-12 col-md-7">
-              <h2>Sobre a <strong>ER</strong> </h2>
-                <p>
-                  A ER PELÍCULAS conta com profissionais altamente qualificados que estão no ramo a <strong>15</strong> anos, possuímos o certificado NR35 (trabalho em altura) exigido pelas pequenas e grandes empresas.
-                </p>
-                
-                <p>A nossa empresa é especializada em películas arquitetônicas prediais, industrias, comerciais, residências, de segurança e decorativa.</p>
+            <div class="col-12 col-md-5 offset-md-1 align-self-center">
+              <h2>Sobre a <strong>ER</strong></h2>
+
+              <p>
+                A ER PELÍCULAS conta com profissionais altamente qualificados que estão no ramo a <strong>15</strong> anos, possuímos o certificado NR35 (trabalho em altura) exigido pelas pequenas e grandes empresas.
+              </p>
+              
+              <p>A nossa empresa é especializada em películas arquitetônicas prediais, industrias, comerciais, residências, de segurança e decorativa.</p>
             </div>
 
             <div class="col-12 col-md-5">
@@ -173,41 +174,17 @@ import "bootstrap/dist/css/bootstrap.css"
 
 export default {
   name: 'app',
-  
 }
+
 </script>
 
 <style>
 
-
-.logo {
-  background: #171717;
-  width: 313px;
-  height: 80px;
-  border-style: solid;
-  border-width: 3px;
-}
-.menu {
-  background: #171717;
-  width: 531px;
-  height: 80px;
-  font-family: Raleway Medium;
-  margin: left;
-}
-
-.menu li a {
-  font: Raleway Medium;
-  font-size: 16px;
-  line-height: 19px;
-  color: #FFFFFF;
-  list-style: inline;
-  padding: left;
-}
+body { font-family: 'Raleway', sans-serif; }
 
 .bg-dark{
   padding: 50px 0;
-  background:#171717;
-  
+  background:#171717 !important; 
 }
   .bg-dark p {
     color: #FFFFFF
@@ -222,6 +199,7 @@ export default {
   .bg-dark strong {
     font-weight: 650;
   }
+
 .bg-white{
   padding: 50px 0;
 }
@@ -239,13 +217,88 @@ export default {
   padding: 50px 0;
   background:#FFFFFF
 }
+  .bg-gray h2 {
+    color: #000;	
+    font-size: 60px;	
+    font-weight: 300;	
+    line-height: 70px;
+    margin-bottom: 35px;
+  }
+
+/* FOOTER */
 
 footer{
   padding: 50px 0;
-  background:#232323
+  background:#232323;
+  color: #fff;
+}
+  footer img { margin-bottom: 30px; }
+
+/* BANNER */
+
+.banner {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background: url('./assets/banner.jpg') center center no-repeat;
+  background-size: cover;
+  padding: 60px 0;
+}
+  .banner h1 {
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 47px;
+    margin-bottom: 30px;
+  }
+  .banner a {
+    border-radius: 22.5px;
+    background-color: #171717;
+    display: inline-block;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 30px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+  }
+  .banner a:hover { background: #fff; color: #171717; }
+
+/* HEADER */
+
+header { 
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.logo {
+  background: #171717;
+  height: 80px;
+  padding: 15px 30px;
+}
 
-
+.menu { 
+  padding: 25px 30px; 
+  background: #171717;
+  height: 80px;
+  margin: left;
+}
+  .menu li { display: inline-block; margin-right: 30px }
+  .menu li a {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+  }
 
 </style>
