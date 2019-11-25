@@ -63,29 +63,40 @@
               <img src="./assets/img-protecao.jpg" alt="">
             </div>
 
-            <div class="col-12 col-md-6">
-    
-              <h3>Proteção e Qualidade</h3>
-              <span>99%</span>
-                <ul>
-                  <li>Bloqueio de até 99% dos raios UV; </li>
-                </ul>
+            <div class="col-12 col-md-6 align-self-center">
+              <div class="row">
+                <div class="col-12">
+                  <h3>Proteção e <br>Qualidade</h3>
+                </div>
+                  
+                <div class="col-12 col-md-6">
+                  
+                  <span class="text-big">99%</span>
+                  <ul>
+                    <li>Bloqueio de até 99% dos raios UV; </li>
+                  </ul>
 
-                <ul>
-                  <li>Torna o vidro mais 
-                  resistente, pois evita 
-                  o estilhaço causado 
-                  por impacto; </li>
-                </ul>
-              
-              <span>70%</span>
-                <ul>
-                  <li>Ambiente decorativo, pois possui diversas cores e modelos;</li>
-                </ul>
+                  <ul>
+                    <li>Torna o vidro mais 
+                    resistente, pois evita 
+                    o estilhaço causado 
+                    por impacto; 
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-12 col-md-6"> 
+                  <span class="text-big">70%
+                  </span>
+                    <ul>
+                      <li>Ambiente decorativo, pois possui diversas cores e modelos;</li>
+                    </ul>
+                    
+                    <ul>
+                      <li>70% economia de energia e refrigeração do ambiente;</li>
+                    </ul>
                 
-                <ul>
-                  <li>70% economia de energia e refrigeração do ambiente;</li>
-                </ul>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -103,7 +114,7 @@
 
             <p>Trabalhamos com variados modelos e cores de películas para o seu ambiente. <br> Benefícios:</p>
             
-            <a href="button-white">Ver mais projetos como este</a>
+            <a href="#" class="button-white">Ver mais projetos como este <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-down-right"><line x1="7" y1="7" x2="17" y2="17"></line><polyline points="17 7 17 17 7 17"></polyline></svg></a>
           
           </div>
 
@@ -115,7 +126,7 @@
             <p>As películas decorativas podem ser utilizadas em vários ambientes como box de banheiro, janelas, portas e vidros internos e externos.</p>
 
             <p>Também utilizada em escritórios e comércios. Há várias sugestões para sua aplicação, como em divisória, fechamentos de área, em guaritas, e fachadas de lojas.</p>
-            <a href="button-white">Ver mais projetos como este</a>
+            <a href="#" class="button-white">Ver mais projetos como este <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-down-right"><line x1="7" y1="7" x2="17" y2="17"></line><polyline points="17 7 17 17 7 17"></polyline></svg></a>
 
           </div>
 
@@ -127,7 +138,7 @@
             <p>Já em caso de algum incidente no local aplicado, aumenta a resistência do vidro e na quebra impede que seus estilhaços atinjam pessoas que estão no ambiente, sendo um ótimo fator de segurança e custo benefício.</p>
 
             <p>Muito usado em portas, janelas, vitrines, sacadas, parapeitos e tetos de vidro.</p>
-            <a href="button-white">Ver mais projetos como este</a>
+            <a href="#" class="button-white">Ver mais projetos como este <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-down-right"><line x1="7" y1="7" x2="17" y2="17"></line><polyline points="17 7 17 17 7 17"></polyline></svg></a>
           </div>
 
         </div>
@@ -179,7 +190,7 @@ export default {
 </script>
 
 <style>
-
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
 body { font-family: 'Raleway', sans-serif; }
 
 .bg-dark{
@@ -201,7 +212,20 @@ body { font-family: 'Raleway', sans-serif; }
   }
 
 .bg-white{
-  padding: 50px 0;
+  padding: 0;
+  
+}
+.bg-white h3 {
+  font-size: 31px;
+}
+.text-big{
+  display: inline-block;
+  font-weight: bold;
+  font-size: 48px;
+
+}
+ul{
+  padding-left: 20px;
 }
 
 .bg-black{
@@ -209,8 +233,23 @@ body { font-family: 'Raleway', sans-serif; }
   background:#171717;
   
 }
+h4{
+  color:#FFFFFF
+}
   .bg-black p {
     color: #F7F7F7
+  }
+  .button-white{
+    background: #D8D8D8;
+    font-weight: bold;
+    color:#171717;
+    font-size: 15px;
+    padding: 20px;
+    display: inline-block;
+
+  }
+  .button-white svg{
+    margin-left: 5px;
   }
 
 .bg-gray{
@@ -221,8 +260,12 @@ body { font-family: 'Raleway', sans-serif; }
     color: #000;	
     font-size: 60px;	
     font-weight: 300;	
-    line-height: 70px;
+    line-height: 60px;
     margin-bottom: 35px;
+    font-family: 'Raleway'
+  }
+  .bg-gray h2 strong{
+    font-weight: 800;
   }
 
 /* FOOTER */
@@ -279,6 +322,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  z-index: 200;
 }
 
 .logo {
