@@ -107,7 +107,7 @@
         <div class="row">
           <div class="col-12 col-md-4">
             <h4>Películas Arquitetônicas: </h4>
-            <img src="./assets/img-arquitetonicas.jpg" alt="">
+            <img class="img-black" src="./assets/img-arquitetonicas.jpg" alt="">
             <p>Auxiliam no conforto e consumo de energia, protegendo o ambiente da luminosidade excessiva, calor interno e danos as mobílias causados pelos raios UV.</p>
 
             <p>As películas arquitetônicas ajudam proteger a sua saúde, bloqueando até 99% dos raios UV no ambiente e evitando câncer de pele e problemas oculares.</p>
@@ -120,7 +120,7 @@
 
           <div class="col-12 col-md-4">
             <h4>Películas Decorativas:</h4>
-            <img src="./assets/peliculas-decorativas.jpg" alt="">
+            <img class="img-black" src="./assets/peliculas-decorativas.jpg" alt="">
             <p>Uma ótima opção para quem deseja decorar seu ambiente e torna-lo mais privativo, conta com diferentes texturas e detalhes.</p>
 
             <p>As películas decorativas podem ser utilizadas em vários ambientes como box de banheiro, janelas, portas e vidros internos e externos.</p>
@@ -132,7 +132,7 @@
 
           <div class="col-12 col-md-4">
             <h4>Películas de Segurança:</h4>
-            <img src="./assets/img-seguranca.jpg" alt="">
+            <img class="img-black" src="./assets/img-seguranca.jpg" alt="">
             <p>Desenvolvida para segurança de ambientes tem a função de bloquear a entrada forçada não autorizada evitando o vandalismo.</p>
 
             <p>Já em caso de algum incidente no local aplicado, aumenta a resistência do vidro e na quebra impede que seus estilhaços atinjam pessoas que estão no ambiente, sendo um ótimo fator de segurança e custo benefício.</p>
@@ -167,8 +167,12 @@
         <div class="row">
           <div class="col-12 text-center">
             <img src="./assets/logo.png" alt="">
+          <div class="col-12 text-center">
+            <a href="#" class="button-black"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg> </a>
+            <a href="#" class="button-black"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
             <p>A nossa empresa é especializada em películas <br>arquitetônicas prediais, industrias, comerciais, <br>residências, de segurança e decorativa. </p>
             <p>Copyright © 2018 - ER Películas - Todos os direitos reservados </p>
+          </div>
           </div>
         </div>
       </div>
@@ -216,13 +220,15 @@ body { font-family: 'Raleway', sans-serif; }
   
 }
 .bg-white h3 {
-  font-size: 31px;
+  font-size: 40px;
+  padding: 16px 11px;
 }
 .text-big{
   display: inline-block;
   font-weight: bold;
-  font-size: 48px;
-
+  font-size: 60px;
+  padding: 11px;
+  margin: 5px;
 }
 ul{
   padding-left: 20px;
@@ -233,8 +239,18 @@ ul{
   background:#171717;
   
 }
-h4{
-  color:#FFFFFF
+.bg-black h4{
+  color:#FFFFFF;
+  font-weight: 250;
+  font-size: 1.2rem;
+  border-style: solid;
+    border-top-width: 0;
+    border-bottom-width: 1px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-color: rgba(255,255,255,.2);
+  padding: 12px 0;
+
 }
   .bg-black p {
     color: #F7F7F7
@@ -268,6 +284,12 @@ h4{
     font-weight: 800;
   }
 
+  .img-black{
+    width: 100%;
+    margin: 25px 0;
+    
+  }
+
 /* FOOTER */
 
 footer{
@@ -275,7 +297,18 @@ footer{
   background:#232323;
   color: #fff;
 }
-  footer img { margin-bottom: 30px; }
+  footer img { margin-bottom: 10px; }
+
+  .button-black svg{
+    color: #FFFFFF;
+    margin-left: 25px;
+    display: inline-block;
+    font-weight: bold;
+    margin: 30px 18px;
+  }
+  p{
+    margin-top: 15px;
+  }
 
 /* BANNER */
 
