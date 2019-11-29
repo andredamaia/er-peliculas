@@ -318,9 +318,10 @@ footer{
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  background: url('./assets/banner.jpg') center center no-repeat;
+  background: url('./assets/banner-3.jpeg') center center no-repeat;
   background-size: cover;
   padding: 60px 0;
+  
 }
   .banner h1 {
     color: #FFFFFF;
@@ -377,5 +378,64 @@ header {
     font-weight: 500;
     line-height: 19px;
   }
+
+
+
+@media (max-width: 948px){
+  .menu {
+    display: none;
+  }
+
+  .bg-dark {
+    padding: 25px 0;
+  }
+
+  .bg-dark h2 {
+    font-size: 53px;
+  }
+
+  .banner {
+    max-width: 100%;
+  }
+
+  .bg-dark img {
+    max-width: 100%;
+  }
+
+  .button-white {
+    margin: 15px 0;
+    padding: 15px;
+  }
+
+  .bg-white img {
+    max-width: 100%;
+  }
+
+  .bg-white h3 {
+    margin: 10px 0;
+    padding: 0;
+  }
+
+  .bg-black {
+    padding: 20px 0 15px;
+  }
+
+  .text-big {
+    padding: 0 ;
+  }
+
+  .bg-gray {
+    padding: 15px 0;
+  }
+
+  .bg-gray h2 {
+    font-size: 52px;
+    margin: 19px 0;
+  }
+  .bg-gray img {
+    max-width: 100%;
+    padding: 20px;
+  }
+}
 
 </style>
