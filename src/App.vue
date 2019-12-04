@@ -155,7 +155,7 @@
           <div class="col-12 col-md-6">
             <h2>Fale <br> <strong>Conosco</strong> </h2> 
             <p>E solicite um orçamento agora mesmo. <br> Qualquer dúvida ou sugestão, estaremos <br> prontos para lhe atender da melhor forma.  </p>
-            <p>Telefone: <br> <strong>(47) 3546.0909</strong> 
+            <p>Telefone: <br> <strong>(47) 3436.1616</strong> 
                           <br><strong>(47) 9 99248823</strong></p>
                         
             <p>E-mail: <br> <strong>Contato@erpeliculas.com.br</strong> </p>
