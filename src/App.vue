@@ -26,7 +26,7 @@
           <div class="row">
             <div class="col-12 col-md-7">
               <h1>
-                Peliculas empresariais especiais. Venha conhecer
+                Peliculas empresariais e residências. Venha conhecer
               </h1>
 
               <a href="" class="button-default">Ver mais sobre</a>
@@ -43,14 +43,14 @@
               <h2>Sobre a <strong>ER</strong></h2>
 
               <p>
-                A ER PELÍCULAS conta com profissionais altamente qualificados que estão no ramo a <strong>15</strong> anos, possuímos o certificado NR35 (trabalho em altura) exigido pelas pequenas e grandes empresas.
+                A ER PELÍCULAS conta com profissionais altamente qualificados que estão no ramo a <strong>15</strong> anos, possuindo o certificado NR35 (trabalho em altura) exigido pelas pequenas e grandes empresas.
               </p>
               
               <p>A nossa empresa é especializada em películas arquitetônicas prediais, industrias, comerciais, residências, de segurança e decorativa.</p>
             </div>
 
             <div class="col-12 col-md-5">
-              <a href="#"> <img src="./assets/img-sobre.png" alt=""></a>
+              <a href="#"> <img src="./assets/img-sobre1.png" alt=""></a>
             </div>
           </div>
       </div>
@@ -60,7 +60,7 @@
         <div class="container">
           <div class="row">
             <div class="col-12 col-md-6">
-              <img src="./assets/img-protecao.jpg" alt="">
+              <img src="./assets/img-protecao1.jpg" alt="">
             </div>
 
             <div class="col-12 col-md-6 align-self-center">
@@ -112,7 +112,7 @@
 
             <p>As películas arquitetônicas ajudam proteger a sua saúde, bloqueando até 99% dos raios UV no ambiente e evitando câncer de pele e problemas oculares.</p>
 
-            <p>Trabalhamos com variados modelos e cores de películas para o seu ambiente. <br> Benefícios:</p>
+            <p>Trabalhamos com variados modelos e cores de películas para o seu ambiente.</p>
             
             <a href="#" class="button-white">Ver mais projetos como este <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-down-right"><line x1="7" y1="7" x2="17" y2="17"></line><polyline points="17 7 17 17 7 17"></polyline></svg></a>
           
@@ -132,7 +132,7 @@
 
           <div class="col-12 col-md-4">
             <h4>Películas de Segurança:</h4>
-            <img class="img-black" src="./assets/img-seguranca.jpg" alt="">
+            <img class="img-black" src="./assets/img-seguranca1.jpg" alt="">
             <p>Desenvolvida para segurança de ambientes tem a função de bloquear a entrada forçada não autorizada evitando o vandalismo.</p>
 
             <p>Já em caso de algum incidente no local aplicado, aumenta a resistência do vidro e na quebra impede que seus estilhaços atinjam pessoas que estão no ambiente, sendo um ótimo fator de segurança e custo benefício.</p>
@@ -149,14 +149,16 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-6">
-            <img src="./assets/img-fale-conosco.png" alt="">
+            <img src="./assets/img-fale-conosco 1.png" alt="">
           </div>
 
           <div class="col-12 col-md-6">
             <h2>Fale <br> <strong>Conosco</strong> </h2> 
             <p>E solicite um orçamento agora mesmo. <br> Qualquer dúvida ou sugestão, estaremos <br> prontos para lhe atender da melhor forma.  </p>
-            <p>Telefone: <br> <strong>(47) 3546.0909</strong> </p>
-            <p>E-mail: <br> <strong>(47) 3546.0909</strong> </p>
+            <p>Telefone: <br> <strong>(47) 3546.0909</strong> 
+                          <br><strong>(47) 9 99248823</strong></p>
+                        
+            <p>E-mail: <br> <strong>Contato@erpeliculas.com.br</strong> </p>
           </div>
         </div>
       </div>
