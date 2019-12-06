@@ -114,7 +114,7 @@
 
             <p>Trabalhamos com variados modelos e cores de películas para o seu ambiente.</p>
             
-            <a href="#" class="button-white">Ver mais projetos como este <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-down-right"><line x1="7" y1="7" x2="17" y2="17"></line><polyline points="17 7 17 17 7 17"></polyline></svg></a>
+            <!-- <a href="#" class="button-white">Ver mais projetos como este <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-down-right"><line x1="7" y1="7" x2="17" y2="17"></line><polyline points="17 7 17 17 7 17"></polyline></svg></a> -->
           
           </div>
 
@@ -126,7 +126,7 @@
             <p>As películas decorativas podem ser utilizadas em vários ambientes como box de banheiro, janelas, portas e vidros internos e externos.</p>
 
             <p>Também utilizada em escritórios e comércios. Há várias sugestões para sua aplicação, como em divisória, fechamentos de área, em guaritas, e fachadas de lojas.</p>
-            <a href="#" class="button-white">Ver mais projetos como este <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-down-right"><line x1="7" y1="7" x2="17" y2="17"></line><polyline points="17 7 17 17 7 17"></polyline></svg></a>
+            <!-- <a href="#" class="button-white">Ver mais projetos como este <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-down-right"><line x1="7" y1="7" x2="17" y2="17"></line><polyline points="17 7 17 17 7 17"></polyline></svg></a> -->
 
           </div>
 
@@ -138,7 +138,7 @@
             <p>Já em caso de algum incidente no local aplicado, aumenta a resistência do vidro e na quebra impede que seus estilhaços atinjam pessoas que estão no ambiente, sendo um ótimo fator de segurança e custo benefício.</p>
 
             <p>Muito usado em portas, janelas, vitrines, sacadas, parapeitos e tetos de vidro.</p>
-            <a href="#" class="button-white">Ver mais projetos como este <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-down-right"><line x1="7" y1="7" x2="17" y2="17"></line><polyline points="17 7 17 17 7 17"></polyline></svg></a>
+            <!-- <a href="#" class="button-white">Ver mais projetos como este <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-down-right"><line x1="7" y1="7" x2="17" y2="17"></line><polyline points="17 7 17 17 7 17"></polyline></svg></a> -->
           </div>
 
         </div>
